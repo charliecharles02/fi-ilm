@@ -56,3 +56,20 @@ body {
 .hidden {
   display: none;
 }
+
+.back {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+}
+.back:hover { text-decoration: underline; }
+article h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+article p {
+  margin-bottom: 20px;
+}
