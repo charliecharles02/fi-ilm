@@ -62,7 +62,8 @@ body {
   margin-bottom: 30px;
   color: #000;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 36px;
+  font-weight: normal;
 }
 .back:hover { text-decoration: underline; }
 article h2 {
