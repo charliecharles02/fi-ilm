@@ -1,33 +1,39 @@
-.contact-box {
-  margin-top: 25px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fi Ilm</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="site-header">
+      <h1 class="site-title">Fi Ilm</h1>
+      <p class="site-subtitle">In knowledge</p>
+    </header>
 
-.contact-textarea {
-  width: 100%;
-  height: 120px;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 15px;
-  border: 1px solid #000;
-  padding: 10px;
-  box-sizing: border-box;
-  resize: none;
-  background-color: #fff;
-  color: #000;
-}
+    <section class="essays-section">
+      <button id="essaysButton" class="essays-button" type="button">
+        Essays
+      </button>
 
-.contact-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-}
+      <ul id="essaysList" class="essays-list hidden">
+        <li><a href="privacy.html">The importance of privacy</a></li>
+        <li><a href="crypto.html">My view on cryptocurrencies</a></li>
+      </ul>
 
-.word-count {
-  font-size: 13px;
-  color: #000;
-}
+      <div id="contactBox" class="contact-box hidden">
+        <textarea id="contactMessage" class="contact-textarea" maxlength="600" placeholder="Max 100 words"></textarea>
+        <div class="contact-footer">
+          <span id="wordCount" class="word-count">0 / 100</span>
+          <button id="contactSubmit" class="essays-button" type="button">Send</button>
+        </div>
+        <p id="contactFeedback" class="contact-feedback hidden">Message sent.</p>
+      </div>
+    </section>
+  </main>
 
-.contact-feedback {
-  margin-top: 12px;
-  font-size: 15px;
-}
+  <script src="script.js"></script>
+</body>
+</html>
