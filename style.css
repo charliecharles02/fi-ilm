@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background-color: #ffffff; /* sfondo bianco */
-  color: #000000; /* testo nero */
+  background-color: #ffffff;
+  color: #000000;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -21,15 +21,14 @@ body {
   font-size: 16px;
 }
 
-/* BOTTONE NERO */
 .essays-button {
   margin-top: 30px;
   background-color: #000000;
-  color: #ffffff; /* testo bianco dentro bottone */
+  color: #ffffff;
   border: none;
   padding: 8px 14px;
   font-size: 16px;
-  font-family: "Courier New", Courier, monospace; /* IMPORTANTISSIMO */
+  font-family: "Courier New", Courier, monospace;
   cursor: pointer;
 }
 
@@ -37,7 +36,6 @@ body {
   opacity: 0.85;
 }
 
-/* LISTA ESSAYS */
 .essays-list {
   margin-top: 25px;
   padding-left: 20px;
@@ -48,7 +46,7 @@ body {
 }
 
 .essays-list a {
-  color: #000000; /* link neri */
+  color: #000000;
   text-decoration: underline;
   font-size: 18px;
 }
@@ -65,12 +63,17 @@ body {
   font-size: 36px;
   font-weight: normal;
 }
-.back:hover { text-decoration: underline; }
+
+.back:hover {
+  text-decoration: underline;
+}
+
 article h2 {
   font-size: 24px;
   font-weight: normal;
   margin-bottom: 30px;
 }
+
 article p {
   margin-bottom: 20px;
 }
@@ -86,7 +89,13 @@ article p {
 }
 
 .contact-box {
-  margin-top: 25px;
+  margin-top: 50px;
+  max-width: 320px;
+}
+
+.contact-title {
+  font-size: 16px;
+  margin-bottom: 12px;
 }
 
 .contact-textarea {
